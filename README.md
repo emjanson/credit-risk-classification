@@ -1,6 +1,8 @@
 # credit-risk-classification
  MSU Data Analytics BootCamp Module 20 Challenge
 
+Code file name: 'credit_risk_classification.ipynb' located in the root repository directory; 'lending_data.csv' file containing raw data in the 'Resources' subdirectory
+
 ## Overview of the Analysis
 
 The goal of this analysis was to generate a logistic regression model that could ultimately be applied to screen individuals for credit (loan) worthiness based on known information about those individuals. The logistic regression model evaluates credit-pertinent information about each individual borrower and attempts to categorize each individual loan into a good or delinquent loan status (after the repayment begins). 
