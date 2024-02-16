@@ -22,3 +22,12 @@ We used a simulated loan dataset split into training and testing data subsets to
 ## Summary
 
 The oversampled logistic model performs better than the non-oversampled model with functionally no downside. The higher balanced accuracy score, higher high-risk recall, and higher high-risk f1-score of the oversampled model, with no change to the healthy loan classification success for any metric, indicates the overall improved quality of our oversampled model vs. the non-oversampled model. Therefore, if we were to employ either of the two models, the second (oversampled) model is technically better at classifying loans into the correct status category and would be the best general classification model. I would absolutely recommend deploying this model generally, but the second model is particularly good if the following is true: our core goal is to minimize lending to risky borrowers. But what is the goal of the model? If our goal is to maximize lending (while still keeping risk controlled) through getting loans into the hands of as many acceptable borrowers as possible, the second model doesn't perform much better than the first and we should focus on improving the model precision for the high-risk loan class while keeping high-risk recall high. If our goal is to minimize risk as much as possible (while potentially rejecting a non-trivial number of applicants that would ultimately be good borrowers) then the second model does perform better than the first. Now we have to answer questions such as: what is the ultimate goal of the model (risk-reduction or lending-maximization), how much time and labor are we willing to give to reviewing loans at the margins to achieve those goals, and amount of misclassification towards the stated goals we are willing to tolerate.
+
+*Code sourcing statement*
+-----------------------
+
+I did use a natural language description of some desired code functions entered into ChatGPT 3.5 to help build the code structure. I did copy pieces of that code to be more efficient, but I tailored it to fit all the desired functions of this particular project. I did not directly copy and paste any of this code from the internet otherwise (e.g., from StackExchange or any other webpage). I did not seek any assistance or use code written by my peers or instructors for this challenge.
+
+End of code sourcing statement.
+
+ ----------------------
