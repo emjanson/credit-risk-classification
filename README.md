@@ -1,5 +1,5 @@
 # credit-risk-classification
- MSU Data Analytics BootCamp Module 20 Challenge
+MSU Data Analytics BootCamp Module 20 Challenge
 
 Code file name: 'credit_risk_classification.ipynb' located in the root repository directory; 'lending_data.csv' file containing raw data in the 'Resources' subdirectory
 
